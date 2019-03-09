@@ -1,8 +1,8 @@
-package com.coinshine.orm.utils;
+package orm.utils;
 
-import com.coinshine.orm.annotation.ORMColumn;
-import com.coinshine.orm.annotation.ORMId;
-import com.coinshine.orm.annotation.ORMTable;
+import orm.annotation.ORMColumn;
+import orm.annotation.ORMId;
+import orm.annotation.ORMTable;
 
 import java.io.File;
 import java.io.UnsupportedEncodingException;

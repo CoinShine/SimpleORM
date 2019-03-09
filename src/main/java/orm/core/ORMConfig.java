@@ -1,7 +1,7 @@
-package com.coinshine.orm.core;
+package orm.core;
 
-import com.coinshine.orm.utils.AnnotationUtil;
-import com.coinshine.orm.utils.Dom4jUtil;
+import orm.utils.AnnotationUtil;
+import orm.utils.Dom4jUtil;
 import org.dom4j.Document;
 
 import java.io.File;
@@ -90,7 +90,7 @@ public class ORMConfig {
 
         //2. 解析实体类中的注解拿到映射数据
         for(String packagePath:entitySet){
-            Set<String> nameSet=AnnotationUtil.getClassNameByPackage(packagePath);
+            Set<String> nameSet= AnnotationUtil.getClassNameByPackage(packagePath);
             for(String name:nameSet){
                 Class clz=Class.forName(name);
                 String className=AnnotationUtil.getClassName(clz);

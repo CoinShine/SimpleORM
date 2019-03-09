@@ -1,4 +1,4 @@
-package com.coinshine.orm.annotation;
+package orm.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package com.coinshine.orm.core;
+package orm.core;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.coinshine.orm.core;
+package orm.core;
 
 import java.lang.reflect.Field;
 import java.sql.Connection;

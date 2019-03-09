@@ -1,4 +1,4 @@
-package com.coinshine.orm.annotation;
+package orm.annotation;
 
 
 
